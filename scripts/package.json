@@ -1,0 +1,12 @@
+{
+  "name": "goteborg-transit-pulse-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "snapshot": "node snapshot.mjs",
+    "rollup": "node rollup.mjs",
+    "resolve-stops": "node resolve-stops.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

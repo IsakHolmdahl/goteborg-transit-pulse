@@ -1,0 +1,15 @@
+name = "goteborg-transit-pulse-api"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+# Plain (non-secret) variables — fine to commit.
+# Secrets (VT_CLIENT_ID, VT_CLIENT_SECRET) are set separately via:
+#   wrangler secret put VT_CLIENT_ID
+#   wrangler secret put VT_CLIENT_SECRET
+# or via the Cloudflare dashboard → your Worker → Settings → Variables and Secrets.
+[vars]
+ALLOWED_ORIGIN = "https://isakholmdahl.github.io"
+
+# Free tier: no observability needed; uncomment if you want logs.
+# [observability]
+# enabled = true

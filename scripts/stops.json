@@ -1,0 +1,9 @@
+{
+  "_": "Stops we sample. gid is filled in automatically by resolve-stops.mjs on first run.",
+  "stops": [
+    { "key": "brunnsparken",     "name": "Brunnsparken, Göteborg",                "gid": null },
+    { "key": "centralstationen", "name": "Göteborg Centralstation",               "gid": null },
+    { "key": "korsvagen",        "name": "Korsvägen, Göteborg",                    "gid": null },
+    { "key": "jarntorget",       "name": "Järntorget, Göteborg",                   "gid": null }
+  ]
+}

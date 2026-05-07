@@ -1,0 +1,53 @@
+name: Snapshot Västtrafik data
+
+on:
+  schedule:
+    # Every 10 minutes — GitHub Actions runs cron in UTC.
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+
+# Prevent overlapping runs (e.g. if a previous one is slow).
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # We need full history so the rebase below behaves nicely
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Resolve stop GIDs (idempotent — only runs once)
+        env:
+          VT_CLIENT_ID: ${{ secrets.VT_CLIENT_ID }}
+          VT_CLIENT_SECRET: ${{ secrets.VT_CLIENT_SECRET }}
+        run: node scripts/resolve-stops.mjs
+
+      - name: Take snapshot
+        env:
+          VT_CLIENT_ID: ${{ secrets.VT_CLIENT_ID }}
+          VT_CLIENT_SECRET: ${{ secrets.VT_CLIENT_SECRET }}
+        run: node scripts/snapshot.mjs
+
+      - name: Commit & push
+        run: |
+          git config user.name  "transit-pulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ scripts/stops.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            # Pull-rebase to be safe if rollup workflow committed in parallel
+            git pull --rebase --autostash origin main || true
+            git commit -m "snapshot: $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push origin HEAD:main
+          fi

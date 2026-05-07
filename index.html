@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Göteborg Transit Pulse — Västtrafik Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+<script src="app.js" type="module" defer></script>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <div class="brand-mark">VT</div>
+      <div>
+        <h1>Göteborg Transit Pulse</h1>
+        <div class="sub">Live network state · trams &amp; city buses · <span class="accent">Västtrafik</span></div>
+      </div>
+    </div>
+    <div class="top-meta">
+      <span class="pulse" id="live-pulse"></span>
+      <span>Live · refreshed <b id="last-updated">—</b></span>
+      <span class="dot-sep">·</span>
+      <span>Snapshots: <b id="snapshot-count">—</b></span>
+    </div>
+  </header>
+
+  <!-- KPIs -->
+  <div class="kpis">
+    <div class="kpi" id="kpi-departures">
+      <div class="stripe"></div>
+      <h4>Departures · last 60 min</h4>
+      <div class="val">—</div>
+      <div class="delta">city centre · across hubs</div>
+    </div>
+    <div class="kpi" id="kpi-disruptions">
+      <div class="stripe"></div>
+      <h4>Active disruptions</h4>
+      <div class="val">—</div>
+      <div class="delta">major / minor / planned</div>
+    </div>
+    <div class="kpi" id="kpi-ontime">
+      <div class="stripe"></div>
+      <h4>On-time % · current</h4>
+      <div class="val">—</div>
+      <div class="delta">vs. 7-day average</div>
+    </div>
+    <div class="kpi" id="kpi-worst">
+      <div class="stripe"></div>
+      <h4>Most-disrupted line</h4>
+      <div class="val small">—</div>
+      <div class="delta">cumulative delay (30d)</div>
+    </div>
+  </div>
+
+  <!-- Departure boards + disruptions -->
+  <div class="main-grid">
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h3>Live departure boards</h3>
+          <div class="h-sub">Next departures at Gothenburg's major hubs · planned vs. live estimates</div>
+        </div>
+        <span class="badge"><span class="pulse" style="width:6px;height:6px"></span> live</span>
+      </div>
+      <div class="tabs" id="tabs"></div>
+      <div class="board-head">
+        <div>Linje</div>
+        <div>Mot</div>
+        <div class="planned" style="text-align:right">Plan</div>
+        <div style="text-align:right">Beräknad</div>
+        <div style="text-align:center">Status</div>
+      </div>
+      <div class="board" id="board"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h3>Service disruptions</h3>
+          <div class="h-sub">Active traffic situations from Västtrafik · newest first</div>
+        </div>
+        <span class="badge" id="situations-meta">—</span>
+      </div>
+      <div class="disr" id="disr-list"></div>
+    </div>
+  </div>
+
+  <!-- Charts grid -->
+  <div class="charts-grid">
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h3>On-time % per line · last 7 days</h3>
+          <div class="h-sub">Arrivals within ±2 min of schedule, ranked</div>
+        </div>
+        <span class="badge">7 d</span>
+      </div>
+      <div class="chart-canvas"><canvas id="punctuality-chart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h3>Top disrupted lines</h3>
+          <div class="h-sub">Cumulative disruption-minutes · last 30 days</div>
+        </div>
+        <span class="badge">30 d</span>
+      </div>
+      <div class="chart-canvas"><canvas id="disrupt-chart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h3>Network punctuality trend</h3>
+          <div class="h-sub">Daily average across all city lines</div>
+        </div>
+        <span class="badge">30 d</span>
+      </div>
+      <div class="chart-canvas"><canvas id="trend-chart"></canvas></div>
+    </div>
+
+    <div class="card full">
+      <div class="card-head">
+        <div>
+          <h3>Delay heatmap · line × hour-of-day</h3>
+          <div class="h-sub">Mean lateness in minutes · darker = more on time, brighter = more delayed</div>
+        </div>
+        <span class="badge">14 d</span>
+      </div>
+      <div id="heatmap" class="heatmap"></div>
+    </div>
+  </div>
+
+  <!-- Trivia -->
+  <div class="trivia">
+    <div class="card">
+      <h4>Most punctual line · 7d</h4>
+      <div class="big" id="trivia-punctual">—</div>
+      <div class="ctx" id="trivia-punctual-ctx"></div>
+    </div>
+    <div class="card">
+      <h4>Longest single delay we've seen</h4>
+      <div class="big" id="trivia-longest">—</div>
+      <div class="ctx" id="trivia-longest-ctx"></div>
+    </div>
+    <div class="card">
+      <h4>Busiest stop right now</h4>
+      <div class="big" id="trivia-busy">—</div>
+      <div class="ctx" id="trivia-busy-ctx"></div>
+    </div>
+    <div class="card">
+      <h4>Cancelled departures today</h4>
+      <div class="big" id="trivia-cancelled">—</div>
+      <div class="ctx" id="trivia-cancelled-ctx"></div>
+    </div>
+  </div>
+
+  <footer>
+    Data: <a href="https://developer.vasttrafik.se">Västtrafik Planera Resa v4</a> ·
+    Snapshots refreshed every 10 min via GitHub Actions ·
+    <a href="https://github.com/IsakHolmdahl/goteborg-transit-pulse">Source on GitHub</a>
+  </footer>
+</div>
+
+</body>
+</html>
