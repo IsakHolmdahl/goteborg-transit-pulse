@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-05-08T04:11:05.133Z",
+  "mostPunctualLine": {
+    "line": "11",
+    "samples": 57,
+    "onTime": 39,
+    "totalDelayMin": 115,
+    "onTimePct": 68.4,
+    "avgDelayMin": 2.02
+  },
+  "longestSingleDelay": {
+    "delayMin": 22,
+    "line": "X4",
+    "direction": "Kungälv, Påstigning fram",
+    "stop": "Korsvägen, Göteborg",
+    "ts": "2026-05-07T17:32:00.0000000+02:00"
+  },
+  "busiestStop": {
+    "name": "Centralstationen, Göteborg",
+    "count": 5
+  },
+  "cancelledToday": 4
+}
