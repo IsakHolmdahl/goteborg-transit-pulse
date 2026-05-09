@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-05-08T04:53:10.546Z",
+  "generatedAt": "2026-05-09T04:17:10.398Z",
   "mostPunctualLine": {
-    "line": "11",
-    "samples": 63,
-    "onTime": 45,
-    "totalDelayMin": 119,
-    "onTimePct": 71.4,
-    "avgDelayMin": 1.89
+    "line": "61",
+    "samples": 103,
+    "onTime": 87,
+    "totalDelayMin": 113,
+    "onTimePct": 84.5,
+    "avgDelayMin": 1.1
   },
   "longestSingleDelay": {
-    "delayMin": 22,
-    "line": "X4",
-    "direction": "Kungälv, Påstigning fram",
+    "delayMin": 32,
+    "line": "6",
+    "direction": "Länsmansgården via Sahlgrenska",
     "stop": "Korsvägen, Göteborg",
-    "ts": "2026-05-07T17:32:00.0000000+02:00"
+    "ts": "2026-05-08T10:05:00.0000000+02:00"
   },
   "busiestStop": {
     "name": "Brunnsparken, Göteborg",
     "count": 20
   },
-  "cancelledToday": 5
+  "cancelledToday": 0
 }
