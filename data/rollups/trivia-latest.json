@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-05-17T05:48:11.030Z",
+  "generatedAt": "2026-05-18T04:59:56.783Z",
   "mostPunctualLine": {
     "line": "10",
-    "samples": 111,
-    "onTime": 104,
+    "samples": 119,
+    "onTime": 112,
     "totalDelayMin": 64,
-    "onTimePct": 93.7,
-    "avgDelayMin": 0.58
+    "onTimePct": 94.1,
+    "avgDelayMin": 0.54
   },
   "longestSingleDelay": {
-    "delayMin": 39,
+    "delayMin": 75,
     "line": "X3",
-    "direction": "Särö, Påstigning fram",
-    "stop": "Järntorget, Göteborg",
-    "ts": "2026-05-13T17:24:00.0000000+02:00"
+    "direction": "Gråbo, Påstigning fram",
+    "stop": "Centralstationen, Göteborg",
+    "ts": "2026-05-17T17:19:00.0000000+02:00"
   },
   "busiestStop": {
     "name": "Brunnsparken, Göteborg",
     "count": 20
   },
-  "cancelledToday": 2
+  "cancelledToday": 0
 }
