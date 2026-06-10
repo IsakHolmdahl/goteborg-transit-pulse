@@ -1,0 +1,19 @@
+[project]
+name = "vinted-pulse"
+version = "0.1.0"
+description = "Market research for Vinted sellers: track listings, detect sales, analyze photos and descriptions"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "anthropic>=0.40",
+]
+
+[project.scripts]
+vinted-pulse = "vinted_pulse.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vinted_pulse"]

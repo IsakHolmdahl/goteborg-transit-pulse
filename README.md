@@ -1,163 +1,125 @@
-# Göteborg Transit Pulse
+# vinted-pulse
 
-Live dashboard of Gothenburg public transit (Västtrafik) — punctuality analytics, live departure boards at the city's major hubs, and active service disruptions. Hosted free on GitHub Pages, data refreshed every 10 minutes by GitHub Actions, live API calls proxied through a free Cloudflare Worker.
+Market research for Vinted sellers. Watch a clothing niche — say, *blue Ralph
+Lauren shirts* — and for every listing that appears, vinted-pulse records:
 
-**Live:** https://isakholmdahl.github.io/goteborg-transit-pulse/
-**API proxy:** https://goteborg-transit-pulse-api.\<your-cf-account>.workers.dev
+- **Final price and time-to-sale** — listings are snapshotted on every poll
+  (including price drops) and a `check` pass detects when they sell or close.
+- **First-photo quality** — Claude vision classifies how the cover photo was
+  shot: flat lay / hanging / worn / mannequin, where it was taken (bed, floor,
+  plain backdrop, outdoors…), lighting, clutter, and a 1–5 quality score.
+- **Description traits** — length class, whether measurements are mentioned
+  (pit-to-pit, cm, chest/längd…), condition words, flavour words
+  ("stunning", "klassisk", "timeless"…), hashtags, emoji. English + Swedish.
 
-## How it's wired
+The `report` command then correlates all of that: sell-through and median
+sold price per photo style, and per description trait — so you can see what
+actually moves inventory in your niche before you list your own.
 
-```
-┌───────────────────┐
-│  GitHub Pages     │   ← static dashboard (index.html, app.js, styles.css)
-│  this repo, root  │     reads /data/rollups/*.json + calls Worker
-└────────┬──────────┘
-         │
-         │ live API calls       static reads
-         ▼                              ▼
-┌───────────────────┐          ┌──────────────────────┐
-│ Cloudflare Worker │          │ /data/snapshots/*.json│
-│  (worker/)        │          │ /data/rollups/*.json  │
-│  OAuth token mgmt │          │ committed by Actions  │
-│  proxies to VT    │          └──────────▲────────────┘
-└────────┬──────────┘                     │
-         │                                │ commits
-         ▼                                │
-┌──────────────────────────┐    ┌────────┴──────────────┐
-│ Västtrafik Planera Resa  │    │  GitHub Actions       │
-│ ext-api.vasttrafik.se    │◄───┤  cron */10 * * * *    │
-└──────────────────────────┘    │  scripts/snapshot.mjs │
-                                └───────────────────────┘
+## Install
+
+```sh
+python -m venv .venv && . .venv/bin/activate
+pip install -e .
+export ANTHROPIC_API_KEY=sk-ant-...   # only needed for photo analysis
 ```
 
-## Repo layout
+## Usage
 
-```
-.
-├── index.html              # dashboard entry (served by GH Pages)
-├── styles.css
-├── app.js                  # ← edit WORKER_URL after first deploy
-├── data/
-│   ├── snapshots/          # daily JSON, written by Actions
-│   ├── rollups/            # pre-computed analytics, written by daily Actions
-│   └── latest.json         # most recent snapshot (also written by Actions)
-├── scripts/
-│   ├── snapshot.mjs        # GH Actions: every 10 min
-│   ├── rollup.mjs          # GH Actions: daily 03:00
-│   ├── resolve-stops.mjs   # one-shot: stop name → GID
-│   ├── stops.json          # stops we sample (Brunnsparken, etc.)
-│   └── lib.mjs             # OAuth + retry helpers
-├── .github/workflows/
-│   ├── snapshot.yml
-│   └── rollup.yml
-└── worker/
-    ├── src/index.ts        # Cloudflare Worker (TypeScript)
-    ├── wrangler.toml
-    ├── package.json
-    └── tsconfig.json
+**1. Create a watch.** The best way is to build the search on vinted.se in
+your browser (search text + brand filter + colour filter + category), then
+copy the URL — every filter carries over:
+
+```sh
+vinted-pulse watch add --name rl-blue-shirts \
+  --url "https://www.vinted.se/catalog?search_text=ralph%20lauren%20shirt&brand_ids[]=88&color_ids[]=9"
 ```
 
-## First-time deploy (≈15 min)
+Or just plain text (less precise — no colour/brand filter):
 
-You need a Västtrafik Planera Resa v4 subscription (Client ID + Secret), a free Cloudflare account, and this GitHub repo.
-
-### 1. Push the code
-
-```bash
-cd "Västtrafik Data/repo"
-git init
-git remote add origin https://github.com/IsakHolmdahl/goteborg-transit-pulse.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+```sh
+vinted-pulse watch add --name rl-blue-shirts --text "ralph lauren shirt blue"
 ```
 
-### 2. Add the GitHub Actions secrets
+**2. Poll regularly.** `run` = fetch new listings + check tracked ones for
+sales. Put it on cron, e.g. every 2 hours:
 
-In the repo on GitHub: **Settings → Secrets and variables → Actions → New repository secret**
-
-| Name              | Value                                  |
-|-------------------|----------------------------------------|
-| `VT_CLIENT_ID`    | Västtrafik Planera Resa Client ID      |
-| `VT_CLIENT_SECRET`| Västtrafik Planera Resa Client Secret  |
-
-> ⚠️ If these credentials were ever pasted in a chat (including with me), **rotate them on developer.vasttrafik.se first** — open your subscription → Regenerate keys.
-
-### 3. Deploy the Cloudflare Worker
-
-```bash
-cd worker
-npm install
-npx wrangler login           # opens a browser to your Cloudflare account
-npx wrangler deploy          # publishes the Worker, prints the public URL
+```sh
+vinted-pulse run
+# crontab: 0 */2 * * * cd ~/vinted-pulse && .venv/bin/vinted-pulse run >> pulse.log 2>&1
 ```
 
-Set the same two secrets on the Worker:
+New listings get their description fetched and analyzed immediately (free,
+heuristic). When a listing disappears or is flagged sold/closed, the last
+seen price is recorded as the final price and time-to-sale is computed from
+the listing's photo upload timestamp.
 
-```bash
-npx wrangler secret put VT_CLIENT_ID
-npx wrangler secret put VT_CLIENT_SECRET
+**3. Analyze photos.** Runs Claude vision (`claude-opus-4-8`) on cover photos
+that haven't been classified yet. By default only sold/closed items (the data
+points that matter most), capped at 25 per run for cost control:
+
+```sh
+vinted-pulse analyze            # sold/closed items only
+vinted-pulse analyze --all --limit 100   # active listings too
 ```
 
-(or use the Cloudflare dashboard → your Worker → Settings → Variables and Secrets)
+**4. Read the report:**
 
-### 4. Wire the dashboard to the Worker
-
-Open `app.js` and replace this line near the top:
-
-```js
-const WORKER_URL = "https://goteborg-transit-pulse-api.YOUR-CF-ACCOUNT.workers.dev";
+```sh
+vinted-pulse report             # all watches
+vinted-pulse report --watch 1   # one watch
+vinted-pulse report --json      # machine-readable
 ```
 
-with the URL `wrangler deploy` printed in step 3. Commit + push.
+Example output:
 
-### 5. Turn on GitHub Pages
+```
+Report — rl-blue-shirts
+=======================
+Tracked: 184   active: 121   sold/closed: 55   gone: 8
+Final prices (n=51): median 180.0, mean 196.4, range 80.0–450.0
+Time to sell (n=51): median 6.2d, fastest 0.3d, slowest 41.8d
 
-In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch → main / / (root) → Save**
+By first-photo style:
+  flat_lay         18/41 sold (43.9%), median sold 175.0
+  worn_on_person   12/19 sold (63.2%), median sold 220.0
+  hanging          9/27 sold (33.3%), median sold 160.0
 
-After ~1 min the dashboard is live at `https://isakholmdahl.github.io/goteborg-transit-pulse/`.
-
-### 6. Watch the first scheduled run
-
-The snapshot Action runs at `*/10 * * * *` UTC. If you don't want to wait, trigger one manually:
-
-In the repo → **Actions → Snapshot Västtrafik data → Run workflow → main → Run**.
-
-## Verifying credentials before deploy (optional)
-
-This single command on your Mac will tell you whether your credentials work, without committing them anywhere:
-
-```bash
-curl -sS -u "$VT_CLIENT_ID:$VT_CLIENT_SECRET" \
-  -d 'grant_type=client_credentials' \
-  https://ext-api.vasttrafik.se/token
+By description trait:
+  has_measurements     24/38 sold (63.2%)
+  mentions_condition   30/61 sold (49.2%)
+  has_flavour_words    19/44 sold (43.2%)
+  length_short         21/70 sold (30.0%)
+  length_medium        25/52 sold (48.1%)
+  length_long          9/14 sold (64.3%)
 ```
 
-You should see a JSON body with `"access_token": "..."` and `"expires_in": 3600`. If you see `{ "error": "invalid_client" }`, the credentials are wrong (or rotated). If you get a 200 with a token, you're good.
+## How it works
 
-## How to verify the Worker after deploy
+- Vinted has no official API; this uses the same public JSON endpoints the
+  website itself calls (`/api/v2/catalog/items`, `/api/v2/items/{id}`) with
+  an anonymous browser session. Requests are rate-limited (~1 every 2–3.5 s
+  with jitter) and back off on 429s.
+- "Sold" vs "closed": when a listing has an explicit sold flag we record
+  `sold`; if it's closed without one (some domains hide the distinction) we
+  record `closed`; a 404 means `gone` (deleted). Reports group sold + closed
+  together since for market research both mean "off the market" — the
+  separate `gone` bucket excludes deletions from the stats.
+- Everything is stored in a local SQLite file (`vinted_pulse.db`, override
+  with `--db` or `VINTED_DB`). Price changes are kept as a history per item.
 
-```bash
-curl -sS https://goteborg-transit-pulse-api.<your-acc>.workers.dev/api/health
-# → {"ok":true,"tokenCached":false,...}
+## Caveats
 
-curl -sS https://goteborg-transit-pulse-api.<your-acc>.workers.dev/api/locations?q=Brunnsparken
-# → JSON with results
+- Run it from a residential IP (your own machine). Vinted's bot protection
+  (DataDome) commonly blocks datacenter/cloud IPs, which is why this is a
+  cron-on-your-laptop tool rather than a GitHub Actions workflow.
+- Polling every 1–2 hours is plenty. Time-to-sale resolution is bounded by
+  your check frequency.
+- This is for personal market research at low volume. Be polite: don't crank
+  the rate limits down, don't run dozens of watches in parallel.
+
+## Tests
+
+```sh
+python -m unittest discover tests
 ```
-
-## Cost
-
-| Component                  | Tier      | Monthly cost |
-|----------------------------|-----------|--------------|
-| GitHub Pages               | Free      | $0           |
-| GitHub Actions (public)    | Free      | $0           |
-| Cloudflare Workers         | Free      | $0           |
-| Västtrafik Planera Resa v4 | Free tier | $0           |
-| **Total**                  |           | **$0**       |
-
-## Notes
-
-- The "On time" threshold is set to ≤ 2 minutes late. Adjust `ON_TIME_THRESHOLD` in `scripts/rollup.mjs` if you want stricter or looser bookkeeping.
-- `traffic-situations` is a separate API product on the developer portal. If your subscription doesn't include it, the dashboard will show "no active disruptions" and the Worker logs will show 401/403 from `/api/situations`. You can add the subscription on developer.vasttrafik.se without redeploying anything.
-- Stop GIDs in `scripts/stops.json` are filled in automatically on the first scheduled run. If you want different stops, edit the file and change `gid` back to `null` for the stops you want to re-resolve.
->>>>>>> 5d49d5d (Initial commit)

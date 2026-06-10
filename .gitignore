@@ -1,5 +1,11 @@
-node_modules/
-.wrangler/
-.dev.vars
-*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
 .DS_Store
+*.log
+
+# local tracking database
+*.db
+*.db-journal
+.env
