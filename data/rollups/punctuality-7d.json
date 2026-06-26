@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-26T05:00:01.210Z",
+  "generatedAt": "2026-06-26T06:09:56.028Z",
   "windowDays": 7,
   "threshold": 2,
   "lines": [
     {
       "line": "FLYG",
-      "samples": 33,
-      "onTime": 33,
+      "samples": 34,
+      "onTime": 34,
       "totalDelayMin": 0,
       "onTimePct": 100,
       "avgDelayMin": 0
     },
     {
       "line": "5",
-      "samples": 42,
-      "onTime": 41,
+      "samples": 44,
+      "onTime": 43,
       "totalDelayMin": 3,
-      "onTimePct": 97.6,
+      "onTimePct": 97.7,
       "avgDelayMin": 0.07
     },
     {
@@ -29,11 +29,11 @@
     },
     {
       "line": "63",
-      "samples": 130,
-      "onTime": 124,
+      "samples": 132,
+      "onTime": 126,
       "totalDelayMin": 61,
-      "onTimePct": 95.4,
-      "avgDelayMin": 0.47
+      "onTimePct": 95.5,
+      "avgDelayMin": 0.46
     },
     {
       "line": "X",
@@ -45,155 +45,155 @@
     },
     {
       "line": "758",
-      "samples": 32,
-      "onTime": 30,
-      "totalDelayMin": 24,
-      "onTimePct": 93.8,
-      "avgDelayMin": 0.75
+      "samples": 34,
+      "onTime": 32,
+      "totalDelayMin": 20,
+      "onTimePct": 94.1,
+      "avgDelayMin": 0.59
     },
     {
       "line": "2",
-      "samples": 69,
-      "onTime": 64,
-      "totalDelayMin": 48,
-      "onTimePct": 92.8,
+      "samples": 70,
+      "onTime": 65,
+      "totalDelayMin": 49,
+      "onTimePct": 92.9,
       "avgDelayMin": 0.7
     },
     {
       "line": "61",
-      "samples": 284,
-      "onTime": 262,
-      "totalDelayMin": 164,
-      "onTimePct": 92.3,
-      "avgDelayMin": 0.58
+      "samples": 290,
+      "onTime": 268,
+      "totalDelayMin": 165,
+      "onTimePct": 92.4,
+      "avgDelayMin": 0.57
     },
     {
       "line": "1",
-      "samples": 290,
-      "onTime": 266,
-      "totalDelayMin": 232,
-      "onTimePct": 91.7,
-      "avgDelayMin": 0.8
+      "samples": 293,
+      "onTime": 269,
+      "totalDelayMin": 231,
+      "onTimePct": 91.8,
+      "avgDelayMin": 0.79
     },
     {
       "line": "12",
-      "samples": 96,
-      "onTime": 86,
+      "samples": 98,
+      "onTime": 88,
       "totalDelayMin": 84,
-      "onTimePct": 89.6,
-      "avgDelayMin": 0.88
+      "onTimePct": 89.8,
+      "avgDelayMin": 0.86
     },
     {
       "line": "X5",
-      "samples": 47,
-      "onTime": 42,
+      "samples": 48,
+      "onTime": 43,
       "totalDelayMin": 65,
-      "onTimePct": 89.4,
-      "avgDelayMin": 1.38
+      "onTimePct": 89.6,
+      "avgDelayMin": 1.35
     },
     {
       "line": "4",
-      "samples": 133,
-      "onTime": 117,
+      "samples": 135,
+      "onTime": 119,
       "totalDelayMin": 130,
-      "onTimePct": 88,
-      "avgDelayMin": 0.98
+      "onTimePct": 88.1,
+      "avgDelayMin": 0.96
     },
     {
       "line": "8",
-      "samples": 92,
-      "onTime": 79,
+      "samples": 94,
+      "onTime": 81,
       "totalDelayMin": 104,
-      "onTimePct": 85.9,
-      "avgDelayMin": 1.13
+      "onTimePct": 86.2,
+      "avgDelayMin": 1.11
     },
     {
       "line": "X4",
-      "samples": 70,
-      "onTime": 59,
-      "totalDelayMin": 90,
-      "onTimePct": 84.3,
-      "avgDelayMin": 1.29
+      "samples": 72,
+      "onTime": 61,
+      "totalDelayMin": 89,
+      "onTimePct": 84.7,
+      "avgDelayMin": 1.24
     },
     {
       "line": "60",
-      "samples": 98,
-      "onTime": 79,
-      "totalDelayMin": 138,
-      "onTimePct": 80.6,
-      "avgDelayMin": 1.41
-    },
-    {
-      "line": "3",
-      "samples": 238,
-      "onTime": 186,
-      "totalDelayMin": 334,
-      "onTimePct": 78.2,
+      "samples": 99,
+      "onTime": 80,
+      "totalDelayMin": 139,
+      "onTimePct": 80.8,
       "avgDelayMin": 1.4
     },
     {
+      "line": "3",
+      "samples": 242,
+      "onTime": 190,
+      "totalDelayMin": 335,
+      "onTimePct": 78.5,
+      "avgDelayMin": 1.38
+    },
+    {
       "line": "9",
-      "samples": 190,
-      "onTime": 147,
-      "totalDelayMin": 282,
+      "samples": 195,
+      "onTime": 151,
+      "totalDelayMin": 289,
       "onTimePct": 77.4,
       "avgDelayMin": 1.48
     },
     {
       "line": "6",
-      "samples": 379,
-      "onTime": 283,
-      "totalDelayMin": 640,
-      "onTimePct": 74.7,
-      "avgDelayMin": 1.69
+      "samples": 384,
+      "onTime": 288,
+      "totalDelayMin": 641,
+      "onTimePct": 75,
+      "avgDelayMin": 1.67
     },
     {
       "line": "18",
-      "samples": 298,
-      "onTime": 217,
-      "totalDelayMin": 475,
-      "onTimePct": 72.8,
-      "avgDelayMin": 1.59
+      "samples": 303,
+      "onTime": 222,
+      "totalDelayMin": 476,
+      "onTimePct": 73.3,
+      "avgDelayMin": 1.57
     },
     {
       "line": "X2",
-      "samples": 148,
-      "onTime": 101,
+      "samples": 152,
+      "onTime": 105,
       "totalDelayMin": 291,
-      "onTimePct": 68.2,
-      "avgDelayMin": 1.97
+      "onTimePct": 69.1,
+      "avgDelayMin": 1.91
     },
     {
       "line": "7",
-      "samples": 73,
-      "onTime": 47,
-      "totalDelayMin": 162,
-      "onTimePct": 64.4,
-      "avgDelayMin": 2.22
+      "samples": 75,
+      "onTime": 49,
+      "totalDelayMin": 163,
+      "onTimePct": 65.3,
+      "avgDelayMin": 2.17
     },
     {
       "line": "11",
-      "samples": 295,
-      "onTime": 185,
-      "totalDelayMin": 655,
-      "onTimePct": 62.7,
-      "avgDelayMin": 2.22
+      "samples": 299,
+      "onTime": 187,
+      "totalDelayMin": 668,
+      "onTimePct": 62.5,
+      "avgDelayMin": 2.23
     },
     {
       "line": "25",
-      "samples": 81,
-      "onTime": 49,
-      "totalDelayMin": 212,
-      "onTimePct": 60.5,
-      "avgDelayMin": 2.62
+      "samples": 83,
+      "onTime": 51,
+      "totalDelayMin": 213,
+      "onTimePct": 61.4,
+      "avgDelayMin": 2.57
     },
     {
       "line": "X6",
-      "samples": 32,
-      "onTime": 10,
+      "samples": 34,
+      "onTime": 12,
       "totalDelayMin": 139,
-      "onTimePct": 31.3,
-      "avgDelayMin": 4.34
+      "onTimePct": 35.3,
+      "avgDelayMin": 4.09
     }
   ]
 }
