@@ -1,87 +1,87 @@
 {
-  "generatedAt": "2026-07-09T04:44:19.010Z",
+  "generatedAt": "2026-07-09T06:03:25.481Z",
   "windowDays": 7,
   "threshold": 2,
   "lines": [
     {
       "line": "FLYG",
-      "samples": 42,
-      "onTime": 42,
+      "samples": 43,
+      "onTime": 43,
       "totalDelayMin": 0,
       "onTimePct": 100,
       "avgDelayMin": 0
     },
     {
       "line": "5",
-      "samples": 100,
-      "onTime": 99,
+      "samples": 101,
+      "onTime": 100,
       "totalDelayMin": 9,
       "onTimePct": 99,
       "avgDelayMin": 0.09
     },
     {
       "line": "10",
-      "samples": 114,
-      "onTime": 112,
+      "samples": 115,
+      "onTime": 113,
       "totalDelayMin": 48,
-      "onTimePct": 98.2,
+      "onTimePct": 98.3,
       "avgDelayMin": 0.42
     },
     {
       "line": "758",
-      "samples": 34,
-      "onTime": 33,
-      "totalDelayMin": 9,
+      "samples": 35,
+      "onTime": 34,
+      "totalDelayMin": 6,
       "onTimePct": 97.1,
-      "avgDelayMin": 0.26
+      "avgDelayMin": 0.17
     },
     {
       "line": "2",
-      "samples": 100,
-      "onTime": 94,
-      "totalDelayMin": 73,
-      "onTimePct": 94,
+      "samples": 101,
+      "onTime": 95,
+      "totalDelayMin": 74,
+      "onTimePct": 94.1,
       "avgDelayMin": 0.73
     },
     {
       "line": "63",
-      "samples": 166,
-      "onTime": 155,
+      "samples": 170,
+      "onTime": 159,
       "totalDelayMin": 144,
-      "onTimePct": 93.4,
-      "avgDelayMin": 0.87
+      "onTimePct": 93.5,
+      "avgDelayMin": 0.85
     },
     {
       "line": "61",
-      "samples": 389,
-      "onTime": 348,
-      "totalDelayMin": 377,
-      "onTimePct": 89.5,
-      "avgDelayMin": 0.97
+      "samples": 395,
+      "onTime": 353,
+      "totalDelayMin": 395,
+      "onTimePct": 89.4,
+      "avgDelayMin": 1
     },
     {
       "line": "12",
-      "samples": 134,
-      "onTime": 119,
+      "samples": 135,
+      "onTime": 120,
       "totalDelayMin": 154,
-      "onTimePct": 88.8,
-      "avgDelayMin": 1.15
+      "onTimePct": 88.9,
+      "avgDelayMin": 1.14
     },
     {
       "line": "4",
-      "samples": 182,
-      "onTime": 161,
+      "samples": 184,
+      "onTime": 163,
       "totalDelayMin": 230,
-      "onTimePct": 88.5,
-      "avgDelayMin": 1.26
+      "onTimePct": 88.6,
+      "avgDelayMin": 1.25
     },
     {
       "line": "1",
-      "samples": 363,
-      "onTime": 321,
-      "totalDelayMin": 352,
-      "onTimePct": 88.4,
-      "avgDelayMin": 0.97
+      "samples": 368,
+      "onTime": 325,
+      "totalDelayMin": 355,
+      "onTimePct": 88.3,
+      "avgDelayMin": 0.96
     },
     {
       "line": "X",
@@ -93,107 +93,107 @@
     },
     {
       "line": "60",
-      "samples": 121,
-      "onTime": 104,
-      "totalDelayMin": 152,
-      "onTimePct": 86,
-      "avgDelayMin": 1.26
+      "samples": 123,
+      "onTime": 106,
+      "totalDelayMin": 151,
+      "onTimePct": 86.2,
+      "avgDelayMin": 1.23
     },
     {
       "line": "9",
-      "samples": 253,
-      "onTime": 212,
-      "totalDelayMin": 377,
-      "onTimePct": 83.8,
-      "avgDelayMin": 1.49
+      "samples": 257,
+      "onTime": 216,
+      "totalDelayMin": 376,
+      "onTimePct": 84,
+      "avgDelayMin": 1.46
     },
     {
       "line": "8",
-      "samples": 129,
-      "onTime": 107,
+      "samples": 131,
+      "onTime": 109,
       "totalDelayMin": 220,
-      "onTimePct": 82.9,
-      "avgDelayMin": 1.71
-    },
-    {
-      "line": "X5",
-      "samples": 61,
-      "onTime": 50,
-      "totalDelayMin": 102,
-      "onTimePct": 82,
-      "avgDelayMin": 1.67
+      "onTimePct": 83.2,
+      "avgDelayMin": 1.68
     },
     {
       "line": "X4",
-      "samples": 94,
-      "onTime": 77,
+      "samples": 95,
+      "onTime": 78,
       "totalDelayMin": 124,
+      "onTimePct": 82.1,
+      "avgDelayMin": 1.31
+    },
+    {
+      "line": "3",
+      "samples": 342,
+      "onTime": 280,
+      "totalDelayMin": 450,
       "onTimePct": 81.9,
       "avgDelayMin": 1.32
     },
     {
       "line": "6",
-      "samples": 498,
-      "onTime": 407,
-      "totalDelayMin": 616,
+      "samples": 504,
+      "onTime": 412,
+      "totalDelayMin": 623,
       "onTimePct": 81.7,
       "avgDelayMin": 1.24
     },
     {
-      "line": "3",
-      "samples": 338,
-      "onTime": 276,
-      "totalDelayMin": 450,
-      "onTimePct": 81.7,
-      "avgDelayMin": 1.33
+      "line": "X5",
+      "samples": 62,
+      "onTime": 50,
+      "totalDelayMin": 108,
+      "onTimePct": 80.6,
+      "avgDelayMin": 1.74
     },
     {
       "line": "18",
-      "samples": 397,
-      "onTime": 292,
+      "samples": 402,
+      "onTime": 297,
       "totalDelayMin": 625,
-      "onTimePct": 73.6,
-      "avgDelayMin": 1.57
+      "onTimePct": 73.9,
+      "avgDelayMin": 1.55
     },
     {
       "line": "11",
-      "samples": 371,
-      "onTime": 257,
-      "totalDelayMin": 757,
-      "onTimePct": 69.3,
-      "avgDelayMin": 2.04
+      "samples": 374,
+      "onTime": 260,
+      "totalDelayMin": 760,
+      "onTimePct": 69.5,
+      "avgDelayMin": 2.03
     },
     {
       "line": "7",
-      "samples": 101,
-      "onTime": 67,
-      "totalDelayMin": 191,
-      "onTimePct": 66.3,
-      "avgDelayMin": 1.89
+      "samples": 103,
+      "onTime": 69,
+      "totalDelayMin": 192,
+      "onTimePct": 67,
+      "avgDelayMin": 1.86
     },
     {
       "line": "X2",
-      "samples": 194,
-      "onTime": 123,
-      "totalDelayMin": 451,
-      "onTimePct": 63.4,
-      "avgDelayMin": 2.32
+      "samples": 198,
+      "onTime": 127,
+      "totalDelayMin": 453,
+      "onTimePct": 64.1,
+      "avgDelayMin": 2.29
     },
     {
       "line": "25",
-      "samples": 98,
-      "onTime": 52,
-      "totalDelayMin": 290,
-      "onTimePct": 53.1,
-      "avgDelayMin": 2.96
+      "samples": 100,
+      "onTime": 53,
+      "totalDelayMin": 294,
+      "onTimePct": 53,
+      "avgDelayMin": 2.94
     },
     {
       "line": "X6",
-      "samples": 74,
-      "onTime": 31,
+      "samples": 75,
+      "onTime": 32,
       "totalDelayMin": 251,
-      "onTimePct": 41.9,
-      "avgDelayMin": 3.39
+      "onTimePct": 42.7,
+      "avgDelayMin": 3.35
     }
   ]
 }
