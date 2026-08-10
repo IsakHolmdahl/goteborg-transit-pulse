@@ -1,5 +1,5 @@
 {
-  "ts": "2026-08-09T23:55:40.517Z",
+  "ts": "2026-08-10T01:04:45.647Z",
   "stops": {
     "brunnsparken": {
       "key": "brunnsparken",
@@ -7,50 +7,26 @@
       "gid": "9021014001760000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw3NDA0NXwwfDgwfDkwODIwMjYiLCJJIjowfV19",
-          "line": "X",
-          "lineName": "Spårvagn X",
-          "transportMode": "tram",
-          "direction": "Frihamnen",
-          "platform": "A2",
-          "plannedTime": "2026-08-10T01:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T01:55:00.0000000+02:00",
-          "delayMin": -1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw3MDk4OXwwfDgwfDkwODIwMjYiLCJJIjowfV19",
-          "line": "X",
-          "lineName": "Spårvagn X",
-          "transportMode": "tram",
-          "direction": "Frihamnen",
-          "platform": "B2",
-          "plannedTime": "2026-08-10T01:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T01:56:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNzMzMnwxfDgwfDkwODIwMjYiLCJJIjowfV19",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Tynnered",
-          "platform": "C1",
-          "plannedTime": "2026-08-10T01:58:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T01:58:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw3Mjg4NnwwfDgwfDkwODIwMjYiLCJJIjowfV19",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzODc1NXwwfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
           "line": "11",
           "lineName": "Spårvagn 11",
           "transportMode": "tram",
-          "direction": "Mariaplan",
-          "platform": "B1",
-          "plannedTime": "2026-08-10T02:18:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T02:18:00.0000000+02:00",
+          "direction": "Bergsjön",
+          "platform": "C2",
+          "plannedTime": "2026-08-10T03:55:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T03:55:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1OTI5MnwwfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
+          "transportMode": "tram",
+          "direction": "Angered",
+          "platform": "C2",
+          "plannedTime": "2026-08-10T03:59:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T03:59:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         }
@@ -66,7 +42,32 @@
       "key": "korsvagen",
       "name": "Korsvägen, Göteborg",
       "gid": "9021014003980000",
-      "departures": []
+      "departures": [
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2OTIwMXwwfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "FLYG",
+          "lineName": "Flygbussarna",
+          "transportMode": "bus",
+          "direction": "Landvetter Airport",
+          "platform": "A4",
+          "plannedTime": "2026-08-10T03:15:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T03:15:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2OTIwMXwxfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "FLYG",
+          "lineName": "Flygbussarna",
+          "transportMode": "bus",
+          "direction": "Landvetter Airport",
+          "platform": "A4",
+          "plannedTime": "2026-08-10T04:00:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T04:00:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        }
+      ]
     },
     "jarntorget": {
       "key": "jarntorget",
@@ -74,38 +75,26 @@
       "gid": "9021014003640000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNzMzMnwxfDgwfDkwODIwMjYiLCJJIjowfV19",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Tynnered",
-          "platform": "D",
-          "plannedTime": "2026-08-10T02:03:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T02:03:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw3MDk4OXwxfDgwfDkwODIwMjYiLCJJIjowfV19",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Brunnsparken",
-          "platform": "C",
-          "plannedTime": "2026-08-10T02:17:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T02:17:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw3Mjg4NnwwfDgwfDkwODIwMjYiLCJJIjowfV19",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzODc1NXwwfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
           "line": "11",
           "lineName": "Spårvagn 11",
           "transportMode": "tram",
-          "direction": "Mariaplan",
-          "platform": "A",
-          "plannedTime": "2026-08-10T02:23:00.0000000+02:00",
-          "estimatedTime": "2026-08-10T02:23:00.0000000+02:00",
+          "direction": "Bergsjön",
+          "platform": "B",
+          "plannedTime": "2026-08-10T03:50:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T03:50:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1OTI5MnwwfDgwfDEwMDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
+          "transportMode": "tram",
+          "direction": "Angered via Stenpiren",
+          "platform": "B",
+          "plannedTime": "2026-08-10T03:54:00.0000000+02:00",
+          "estimatedTime": "2026-08-10T03:54:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         }
@@ -574,6 +563,19 @@
       "affectedLines": []
     },
     {
+      "id": "RT3018360",
+      "title": "Västtågen är indragna på hela eller delar på sträckan Mariestad-Örebro och ersätts med buss 35A.",
+      "description": "Orsaken är banarbete. Gäller från 14 augusti klockan 05:30 till 16 augusti klockan 22:00.",
+      "severity": "slight",
+      "creationTime": "2026-07-21T08:46:27.042+02:00",
+      "startTime": "2026-08-14T05:30:00+02:00",
+      "endTime": "2026-08-16T22:00:00+02:00",
+      "affectedLines": [
+        "35",
+        "TÅG"
+      ]
+    },
+    {
       "id": "RT3018453",
       "title": "Linje 434, Handelsplats Älvängen Södra, läge A/B är indragen.",
       "description": "Närmaste hållplats är Handelsplats Älvängen Norra och Björklövsvägen. Orsaken är vägarbete. Gäller från 17 augusti klockan 04:00 till 10 oktober klockan 04:00.",
@@ -595,19 +597,6 @@
       "endTime": "2026-10-09T15:30:00+02:00",
       "affectedLines": [
         "92"
-      ]
-    },
-    {
-      "id": "RT3018360",
-      "title": "Västtågen är indragna på hela eller delar på sträckan Mariestad-Örebro och ersätts med buss 35A.",
-      "description": "Orsaken är banarbete. Gäller från 14 augusti klockan 05:30 till 16 augusti klockan 22:00.",
-      "severity": "slight",
-      "creationTime": "2026-07-21T08:46:27.042+02:00",
-      "startTime": "2026-08-14T05:30:00+02:00",
-      "endTime": "2026-08-16T22:00:00+02:00",
-      "affectedLines": [
-        "35",
-        "TÅG"
       ]
     },
     {
@@ -644,19 +633,6 @@
       "endTime": "2026-08-14T02:59:00+02:00",
       "affectedLines": [
         "731"
-      ]
-    },
-    {
-      "id": "RT3020809",
-      "title": "Linje 17 och 29 mot Tuve/Amhult avgår från Vågmästareplatsen, läge D1.",
-      "description": "Orsaken är vägarbete. Gäller från 9 augusti klockan 20:00 till 10 augusti klockan 05:00.",
-      "severity": "slight",
-      "creationTime": "2026-07-27T14:33:30.483+02:00",
-      "startTime": "2026-08-09T20:00:00+02:00",
-      "endTime": "2026-08-10T05:00:00+02:00",
-      "affectedLines": [
-        "17",
-        "29"
       ]
     },
     {
@@ -704,6 +680,19 @@
       "startTime": "2026-08-09T19:00:00+02:00",
       "endTime": "2026-08-10T05:00:00+02:00",
       "affectedLines": [
+        "29"
+      ]
+    },
+    {
+      "id": "RT3020809",
+      "title": "Linje 17 och 29 mot Tuve/Amhult avgår från Vågmästareplatsen, läge D1.",
+      "description": "Orsaken är vägarbete. Gäller från 9 augusti klockan 20:00 till 10 augusti klockan 05:00.",
+      "severity": "slight",
+      "creationTime": "2026-07-27T14:33:30.483+02:00",
+      "startTime": "2026-08-09T20:00:00+02:00",
+      "endTime": "2026-08-10T05:00:00+02:00",
+      "affectedLines": [
+        "17",
         "29"
       ]
     },
@@ -839,18 +828,6 @@
       ]
     },
     {
-      "id": "RT3025508",
-      "title": "Linje 60 är indragen från Kungsportsplatsen till Götaplatsen mot Fredriksdal.",
-      "description": "Linje 60 stannar istället på Domkyrkan, Grönsakstorget, Vasaplatsen och Kapellplatsen, läge C mot Fredriksdal. Orsaken är spårarbete. Sök din resa i appen To Go. Detta gäller från 8 augusti klockan 04:00 till 10 augusti klockan 03:59.",
-      "severity": "normal",
-      "creationTime": "2026-08-09T20:49:41.384+02:00",
-      "startTime": "2026-08-09T13:22:00+02:00",
-      "endTime": "2026-08-10T03:35:00+02:00",
-      "affectedLines": [
-        "60"
-      ]
-    },
-    {
       "id": "RT3026026",
       "title": "Linje 60 mot Fredriksdal avgår från Drottningtorget, läge A4.",
       "description": "",
@@ -861,12 +838,24 @@
       "affectedLines": [
         "60"
       ]
+    },
+    {
+      "id": "RT3025508",
+      "title": "Linje 60 är indragen från Kungsportsplatsen till Götaplatsen mot Fredriksdal.",
+      "description": "Linje 60 stannar istället på Domkyrkan, Grönsakstorget, Vasaplatsen och Kapellplatsen, läge C mot Fredriksdal. Orsaken är spårarbete. Sök din resa i appen To Go. Detta gäller från 8 augusti klockan 04:00 till 10 augusti klockan 03:59.",
+      "severity": "normal",
+      "creationTime": "2026-08-09T20:49:41.384+02:00",
+      "startTime": "2026-08-09T13:22:00+02:00",
+      "endTime": "2026-08-10T03:35:00+02:00",
+      "affectedLines": [
+        "60"
+      ]
     }
   ],
   "situationsStatus": "ok",
   "stats": {
-    "departuresTotal": 7,
-    "onTime": 7,
+    "departuresTotal": 6,
+    "onTime": 6,
     "late": 0,
     "cancelled": 0,
     "onTimePct": 100
