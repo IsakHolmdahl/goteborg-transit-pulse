@@ -1,71 +1,11 @@
 {
-  "ts": "2026-08-16T23:34:09.637Z",
+  "ts": "2026-08-16T23:50:50.758Z",
   "stops": {
     "brunnsparken": {
       "key": "brunnsparken",
       "name": "Brunnsparken, Göteborg",
       "gid": "9021014001760000",
       "departures": [
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTA4OXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Ullevi Norra",
-          "platform": "B2",
-          "plannedTime": "2026-08-17T01:35:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:33:00.0000000+02:00",
-          "delayMin": -2,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNDU5M3wyfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
-          "platform": "B2",
-          "plannedTime": "2026-08-17T01:40:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:39:00.0000000+02:00",
-          "delayMin": -1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NzkxOXwxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Mariaplan",
-          "platform": "B1",
-          "plannedTime": "2026-08-17T01:42:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:45:00.0000000+02:00",
-          "delayMin": 3,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNTM3NXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Bergsjön",
-          "platform": "C2",
-          "plannedTime": "2026-08-17T01:49:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:52:00.0000000+02:00",
-          "delayMin": 3,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTA4N3wxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "6",
-          "lineName": "Spårvagn 6",
-          "transportMode": "tram",
-          "direction": "Frihamnen",
-          "platform": "A2",
-          "plannedTime": "2026-08-17T01:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:55:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
         {
           "detailsRef": "eyJUIjpbeyJSIjoiMXw2NjIyOXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "X",
@@ -91,6 +31,18 @@
           "cancelled": false
         },
         {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTA4N3wxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "6",
+          "lineName": "Spårvagn 6",
+          "transportMode": "tram",
+          "direction": "Frihamnen",
+          "platform": "A2",
+          "plannedTime": "2026-08-17T01:54:00.0000000+02:00",
+          "estimatedTime": "2026-08-17T01:58:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
           "detailsRef": "eyJUIjpbeyJSIjoiMXwxNDYyNHwxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "1",
           "lineName": "Spårvagn 1",
@@ -110,8 +62,8 @@
           "direction": "Mariaplan",
           "platform": "B1",
           "plannedTime": "2026-08-17T02:18:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T02:18:00.0000000+02:00",
-          "delayMin": 0,
+          "estimatedTime": "2026-08-17T02:17:00.0000000+02:00",
+          "delayMin": -1,
           "cancelled": false
         }
       ]
@@ -120,7 +72,7 @@
       "key": "centralstationen",
       "name": "Göteborg Centralstation",
       "gid": "9021014001950000",
-      "error": "GET https://ext-api.vasttrafik.se/pr/v4/stop-areas/9021014001950000/departures?maxDeparturesPerLineAndDirection=2&limit=20&includeOccupancy=false → 404: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.5\",\"title\":\"Not Found\",\"status\":404,\"traceId\":\"00-8c5a8ff94ee8d788ffc8b77c8aced8da-c9c3423be9d8dfe1-00\"}",
+      "error": "GET https://ext-api.vasttrafik.se/pr/v4/stop-areas/9021014001950000/departures?maxDeparturesPerLineAndDirection=2&limit=20&includeOccupancy=false → 404: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.5\",\"title\":\"Not Found\",\"status\":404,\"traceId\":\"00-ff59c1a340a3d49c1b0ed06233ec5dba-8f0e95b81a16efbb-00\"}",
       "departures": []
     },
     "korsvagen": {
@@ -129,30 +81,6 @@
       "gid": "9021014003980000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzY1M3wyfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "63",
-          "lineName": "Buss 63",
-          "transportMode": "bus",
-          "direction": "Heden, Påstigning fram",
-          "platform": "B2",
-          "plannedTime": "2026-08-17T01:35:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:35:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTA4N3wxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "6",
-          "lineName": "Spårvagn 6",
-          "transportMode": "tram",
-          "direction": "Frihamnen via Sahlgrenska",
-          "platform": "B1",
-          "plannedTime": "2026-08-17T01:35:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:36:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
           "detailsRef": "eyJUIjpbeyJSIjoiMXwxNzk2MXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "X6",
           "lineName": "Buss X6",
@@ -160,20 +88,8 @@
           "direction": "Landvetter centrum, Påstigning fram",
           "platform": "A4",
           "plannedTime": "2026-08-17T01:45:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:48:00.0000000+02:00",
-          "delayMin": 3,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzMDk2MnwxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "4",
-          "lineName": "Spårvagn 4",
-          "transportMode": "tram",
-          "direction": "Drottningtorget",
-          "platform": "B2",
-          "plannedTime": "2026-08-17T01:48:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:48:00.0000000+02:00",
-          "delayMin": 0,
+          "estimatedTime": "2026-08-17T01:50:00.0000000+02:00",
+          "delayMin": 5,
           "cancelled": false
         },
         {
@@ -196,39 +112,15 @@
       "gid": "9021014003640000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNDU5M3wyfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NjIyOXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "1",
           "lineName": "Spårvagn 1",
           "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
+          "direction": "Brunnsparken",
           "platform": "C",
-          "plannedTime": "2026-08-17T01:35:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:35:00.0000000+02:00",
+          "plannedTime": "2026-08-17T01:51:00.0000000+02:00",
+          "estimatedTime": "2026-08-17T01:51:00.0000000+02:00",
           "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2OTE4OXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Högsbotorp",
-          "platform": "A",
-          "plannedTime": "2026-08-17T01:40:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:41:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNTM3NXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Bergsjön",
-          "platform": "B",
-          "plannedTime": "2026-08-17T01:44:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:47:00.0000000+02:00",
-          "delayMin": 3,
           "cancelled": false
         },
         {
@@ -239,32 +131,8 @@
           "direction": "Frihamnen via Stenpiren",
           "platform": "C",
           "plannedTime": "2026-08-17T01:49:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:50:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NzkxOXwxfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Mariaplan",
-          "platform": "A",
-          "plannedTime": "2026-08-17T01:47:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:51:00.0000000+02:00",
+          "estimatedTime": "2026-08-17T01:53:00.0000000+02:00",
           "delayMin": 4,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NjIyOXwwfDgwfDE2MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Brunnsparken",
-          "platform": "C",
-          "plannedTime": "2026-08-17T01:51:00.0000000+02:00",
-          "estimatedTime": "2026-08-17T01:51:00.0000000+02:00",
-          "delayMin": 0,
           "cancelled": false
         },
         {
@@ -1187,10 +1055,10 @@
   ],
   "situationsStatus": "ok",
   "stats": {
-    "departuresTotal": 23,
-    "onTime": 18,
-    "late": 5,
+    "departuresTotal": 12,
+    "onTime": 9,
+    "late": 3,
     "cancelled": 0,
-    "onTimePct": 78.3
+    "onTimePct": 75
   }
 }
