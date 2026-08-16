@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-16T02:12:40.540Z",
+  "generatedAt": "2026-08-16T02:57:45.092Z",
   "windowDays": 7,
   "threshold": 2,
   "lines": [
     {
       "line": "FLYG",
-      "samples": 98,
-      "onTime": 98,
+      "samples": 100,
+      "onTime": 100,
       "totalDelayMin": 0,
       "onTimePct": 100,
       "avgDelayMin": 0
@@ -37,10 +37,10 @@
     },
     {
       "line": "4",
-      "samples": 408,
-      "onTime": 375,
+      "samples": 410,
+      "onTime": 377,
       "totalDelayMin": 355,
-      "onTimePct": 91.9,
+      "onTimePct": 92,
       "avgDelayMin": 0.87
     },
     {
@@ -76,20 +76,20 @@
       "avgDelayMin": 1.01
     },
     {
+      "line": "X",
+      "samples": 75,
+      "onTime": 61,
+      "totalDelayMin": 78,
+      "onTimePct": 81.3,
+      "avgDelayMin": 1.04
+    },
+    {
       "line": "9",
-      "samples": 641,
-      "onTime": 519,
+      "samples": 643,
+      "onTime": 521,
       "totalDelayMin": 854,
       "onTimePct": 81,
       "avgDelayMin": 1.33
-    },
-    {
-      "line": "X",
-      "samples": 71,
-      "onTime": 57,
-      "totalDelayMin": 80,
-      "onTimePct": 80.3,
-      "avgDelayMin": 1.13
     },
     {
       "line": "114",
@@ -101,11 +101,11 @@
     },
     {
       "line": "1",
-      "samples": 890,
-      "onTime": 683,
-      "totalDelayMin": 1524,
-      "onTimePct": 76.7,
-      "avgDelayMin": 1.71
+      "samples": 898,
+      "onTime": 691,
+      "totalDelayMin": 1525,
+      "onTimePct": 76.9,
+      "avgDelayMin": 1.7
     },
     {
       "line": "60",
@@ -117,10 +117,10 @@
     },
     {
       "line": "3",
-      "samples": 792,
-      "onTime": 586,
-      "totalDelayMin": 1365,
-      "onTimePct": 74,
+      "samples": 796,
+      "onTime": 590,
+      "totalDelayMin": 1366,
+      "onTimePct": 74.1,
       "avgDelayMin": 1.72
     },
     {
@@ -149,11 +149,11 @@
     },
     {
       "line": "11",
-      "samples": 848,
-      "onTime": 572,
-      "totalDelayMin": 1795,
-      "onTimePct": 67.5,
-      "avgDelayMin": 2.12
+      "samples": 855,
+      "onTime": 579,
+      "totalDelayMin": 1799,
+      "onTimePct": 67.7,
+      "avgDelayMin": 2.1
     },
     {
       "line": "X2",
