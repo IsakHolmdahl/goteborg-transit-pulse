@@ -1,5 +1,5 @@
 {
-  "ts": "2026-08-19T19:53:39.052Z",
+  "ts": "2026-08-19T20:15:33.445Z",
   "stops": {
     "brunnsparken": {
       "key": "brunnsparken",
@@ -7,243 +7,243 @@
       "gid": "9021014001760000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjEzNnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
-          "platform": "B2",
-          "plannedTime": "2026-08-19T21:48:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "delayMin": 5,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNjM0NHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "60",
-          "lineName": "Buss 60",
-          "transportMode": "bus",
-          "direction": "Redbergsplatsen, Påstigning fram",
-          "platform": "C2",
-          "plannedTime": "2026-08-19T21:47:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 7,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQzN3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "7",
-          "lineName": "Spårvagn 7",
-          "transportMode": "tram",
-          "direction": "Tynnered",
-          "platform": "C1",
-          "plannedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg0NnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "5",
-          "lineName": "Spårvagn 5",
-          "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
-          "platform": "A1",
-          "plannedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE2MXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "4",
-          "lineName": "Spårvagn 4",
-          "transportMode": "tram",
-          "direction": "Mölndal",
-          "platform": "C1",
-          "plannedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQxN3w1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "10",
-          "lineName": "Spårvagn 10",
-          "transportMode": "tram",
-          "direction": "Guldheden",
-          "platform": "A1",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkwOXw1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
-          "transportMode": "bus",
-          "direction": "Kallebäck via Götaplatsen",
-          "platform": "A1",
-          "plannedTime": "2026-08-19T21:50:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 6,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ0MXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "9",
-          "lineName": "Spårvagn 9",
-          "transportMode": "tram",
-          "direction": "Angered",
-          "platform": "C2",
-          "plannedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "delayMin": 2,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjAzMHw0fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "6",
-          "lineName": "Spårvagn 6",
-          "transportMode": "tram",
-          "direction": "Länsmansgården",
-          "platform": "B2",
-          "plannedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "delayMin": 5,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQzM3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "7",
-          "lineName": "Spårvagn 7",
-          "transportMode": "tram",
-          "direction": "Bergsjön",
-          "platform": "C2",
-          "plannedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg1OXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Marklandsgatan",
-          "platform": "B1",
-          "plannedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw0ODUxMXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "25",
-          "lineName": "Buss 25",
-          "transportMode": "bus",
-          "direction": "Balltorp",
-          "platform": "A3",
-          "plannedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "delayMin": 2,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkwOXw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
-          "transportMode": "bus",
-          "direction": "Kallebäck via Götaplatsen",
-          "platform": "A1",
-          "plannedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjA1NXw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjA1NXw3fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "10",
           "lineName": "Spårvagn 10",
           "transportMode": "tram",
           "direction": "Lindholmen",
           "platform": "A2",
-          "plannedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:00:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:15:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:15:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxMXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxMXwzfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "18",
           "lineName": "Buss 18",
           "transportMode": "bus",
           "direction": "Backa",
           "platform": "A4",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "delayMin": 5,
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2MnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "2",
           "lineName": "Spårvagn 2",
           "transportMode": "tram",
-          "direction": "Drottningtorget",
-          "platform": "B2",
-          "plannedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "delayMin": 2,
+          "direction": "Linnéplatsen",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T22:06:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 10,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjExNnwzfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzODA2MHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "7",
+          "lineName": "Spårvagn 7",
+          "transportMode": "tram",
+          "direction": "Bergsjön",
+          "platform": "C2",
+          "plannedTime": "2026-08-19T22:12:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2OHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "5",
           "lineName": "Spårvagn 5",
           "transportMode": "tram",
           "direction": "Länsmansgården",
           "platform": "A2",
-          "plannedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:03:00.0000000+02:00",
-          "delayMin": 2,
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ0M3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1MnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
           "transportMode": "tram",
-          "direction": "Saltholmen",
+          "direction": "Angered",
+          "platform": "C2",
+          "plannedTime": "2026-08-19T22:10:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "delayMin": 7,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNjM0NnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "60",
+          "lineName": "Buss 60",
+          "transportMode": "bus",
+          "direction": "Fredriksdal, Påstigning fram",
           "platform": "B1",
-          "plannedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:03:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
           "delayMin": 2,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNjM0NHwyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxNjM0OXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "60",
           "lineName": "Buss 60",
           "transportMode": "bus",
           "direction": "Redbergsplatsen, Påstigning fram",
           "platform": "C2",
-          "plannedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:03:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "6",
+          "lineName": "Spårvagn 6",
+          "transportMode": "tram",
+          "direction": "Kortedala via Sahlgrenska",
+          "platform": "C1",
+          "plannedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
           "delayMin": 1,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjEzNnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4MHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "1",
           "lineName": "Spårvagn 1",
           "transportMode": "tram",
           "direction": "Östra Sjukhuset",
           "platform": "B2",
-          "plannedTime": "2026-08-19T22:03:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:04:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 3,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2MHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "4",
+          "lineName": "Spårvagn 4",
+          "transportMode": "tram",
+          "direction": "Angered",
+          "platform": "C2",
+          "plannedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 3,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1NnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Saltholmen",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T22:15:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 5,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NzE4NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "X",
+          "lineName": "Spårvagn X",
+          "transportMode": "tram",
+          "direction": "Frihamnen",
+          "platform": "C2",
+          "plannedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": true
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg3OXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "1",
+          "lineName": "Spårvagn 1",
+          "transportMode": "tram",
+          "direction": "Tynnered",
+          "platform": "C1",
+          "plannedTime": "2026-08-19T22:19:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Bergsjön",
+          "platform": "C2",
+          "plannedTime": "2026-08-19T22:19:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw0ODUxMnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "25",
+          "lineName": "Buss 25",
+          "transportMode": "bus",
+          "direction": "Länsmansgården",
+          "platform": "A2",
+          "plannedTime": "2026-08-19T22:19:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NjY0OHw3fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "X5",
+          "lineName": "Buss X5",
+          "transportMode": "bus",
+          "direction": "Vallhamra, Påstigning fram",
+          "platform": "E1",
+          "plannedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:22:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDQyNHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
+          "transportMode": "tram",
+          "direction": "Kungssten",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T22:19:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:22:00.0000000+02:00",
+          "delayMin": 3,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "3",
+          "lineName": "Spårvagn 3",
+          "transportMode": "tram",
+          "direction": "Kålltorp",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:22:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzM5MXw0fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Saltholmen",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T21:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:23:00.0000000+02:00",
+          "delayMin": 67,
           "cancelled": false
         }
       ]
@@ -252,7 +252,7 @@
       "key": "centralstationen",
       "name": "Göteborg Centralstation",
       "gid": "9021014001950000",
-      "error": "GET https://ext-api.vasttrafik.se/pr/v4/stop-areas/9021014001950000/departures?maxDeparturesPerLineAndDirection=2&limit=20&includeOccupancy=false → 404: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.5\",\"title\":\"Not Found\",\"status\":404,\"traceId\":\"00-9eec55a30ef70770688d0614cdf4341e-ddbb348254383e77-00\"}",
+      "error": "GET https://ext-api.vasttrafik.se/pr/v4/stop-areas/9021014001950000/departures?maxDeparturesPerLineAndDirection=2&limit=20&includeOccupancy=false → 404: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.5\",\"title\":\"Not Found\",\"status\":404,\"traceId\":\"00-bb65bf9f3332a5790e03630e87c7c86b-85d5b8ca5155e1c1-00\"}",
       "departures": []
     },
     "korsvagen": {
@@ -261,243 +261,243 @@
       "gid": "9021014003980000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxMXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
-          "transportMode": "bus",
-          "direction": "Backa via Götaplatsen",
-          "platform": "A2",
-          "plannedTime": "2026-08-19T21:49:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "delayMin": 4,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjAwNnw1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "6",
           "lineName": "Spårvagn 6",
           "transportMode": "tram",
           "direction": "Kortedala",
           "platform": "B2",
-          "plannedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:08:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:15:00.0000000+02:00",
+          "delayMin": 7,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTgxNXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "X4",
-          "lineName": "Buss X4",
-          "transportMode": "bus",
-          "direction": "Kungälv, Påstigning fram",
-          "platform": "B3",
-          "plannedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjEyNnwyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "12",
-          "lineName": "Spårvagn 12",
-          "transportMode": "tram",
-          "direction": "Mölndal",
-          "platform": "B1",
-          "plannedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjExNnwzfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "5",
-          "lineName": "Spårvagn 5",
-          "transportMode": "tram",
-          "direction": "Länsmansgården",
-          "platform": "A2",
-          "plannedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2MHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "4",
-          "lineName": "Spårvagn 4",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE5NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "8",
+          "lineName": "Spårvagn 8",
           "transportMode": "tram",
           "direction": "Angered",
-          "platform": "A2",
-          "plannedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzMzkzfDV8ODB8MTkwODIwMjYiLCJJIjowfV19",
-          "line": "63",
-          "lineName": "Buss 63",
-          "transportMode": "bus",
-          "direction": "Heden, Påstigning fram",
           "platform": "B2",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 0,
+          "plannedTime": "2026-08-19T22:14:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 2,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTEzfDd8ODB8MTkwODIwMjYiLCJJIjowfV19",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTI3fDB8ODB8MTkwODIwMjYiLCJJIjowfV19",
           "line": "63",
           "lineName": "Buss 63",
           "transportMode": "bus",
           "direction": "Linnéplatsen, Påstigning fram",
           "platform": "B1",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:15:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "delayMin": 2,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NTAxN3w0NHw4MHwxOTA4MjAyNiIsIkkiOjB9XX0",
-          "line": "FLYG",
-          "lineName": "Flygbussarna",
-          "transportMode": "bus",
-          "direction": "Göteborg, Nils Ericson Terminalen",
-          "platform": "B3",
-          "plannedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxMXwyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
-          "transportMode": "bus",
-          "direction": "Backa via Götaplatsen",
-          "platform": "A2",
-          "plannedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0MHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "8",
-          "lineName": "Spårvagn 8",
-          "transportMode": "tram",
-          "direction": "Angered",
-          "platform": "B2",
-          "plannedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:00:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg0NnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "5",
-          "lineName": "Spårvagn 5",
-          "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
-          "platform": "A3",
-          "plannedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE3NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "12",
-          "lineName": "Spårvagn 12",
-          "transportMode": "tram",
-          "direction": "Lindholmen",
-          "platform": "B2",
-          "plannedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjAzMHw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "6",
-          "lineName": "Spårvagn 6",
-          "transportMode": "tram",
-          "direction": "Länsmansgården via Sahlgrenska",
-          "platform": "B1",
-          "plannedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE2MXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE2MXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "4",
           "lineName": "Spårvagn 4",
           "transportMode": "tram",
           "direction": "Mölndal",
           "platform": "A3",
-          "plannedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:02:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:17:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3N3w1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3N3w2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "61",
           "lineName": "Buss 61",
           "transportMode": "bus",
           "direction": "Heden, Påstigning fram",
           "platform": "B2",
-          "plannedTime": "2026-08-19T22:03:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:03:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkwOXw1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NTAxN3w0NXw4MHwxOTA4MjAyNiIsIkkiOjB9XX0",
+          "line": "FLYG",
+          "lineName": "Flygbussarna",
           "transportMode": "bus",
-          "direction": "Kallebäck",
-          "platform": "A3",
-          "plannedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:04:00.0000000+02:00",
-          "delayMin": 7,
+          "direction": "Göteborg, Nils Ericson Terminalen",
+          "platform": "B3",
+          "plannedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3OHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "61",
-          "lineName": "Buss 61",
-          "transportMode": "bus",
-          "direction": "Masthugget via Järntorget, Påstigning fram",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4N3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "6",
+          "lineName": "Spårvagn 6",
+          "transportMode": "tram",
+          "direction": "Länsmansgården via Sahlgrenska",
           "platform": "B1",
-          "plannedTime": "2026-08-19T22:05:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:06:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "delayMin": 2,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE3NHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "12",
+          "lineName": "Spårvagn 12",
+          "transportMode": "tram",
+          "direction": "Lindholmen",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:19:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
           "delayMin": 1,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkwOXw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "18",
-          "lineName": "Buss 18",
-          "transportMode": "bus",
-          "direction": "Kallebäck",
-          "platform": "A3",
-          "plannedTime": "2026-08-19T22:07:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:07:00.0000000+02:00",
-          "delayMin": 0,
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg5MHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "X",
+          "lineName": "Spårvagn X",
+          "transportMode": "tram",
+          "direction": "Ullevi Norra",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": -1,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg1MHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg0NnwyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "5",
+          "lineName": "Spårvagn 5",
+          "transportMode": "tram",
+          "direction": "Östra Sjukhuset",
+          "platform": "A3",
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxNnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "18",
+          "lineName": "Buss 18",
+          "transportMode": "bus",
+          "direction": "Backa via Götaplatsen",
+          "platform": "A2",
+          "plannedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg3NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "8",
           "lineName": "Spårvagn 8",
           "transportMode": "tram",
           "direction": "Högsbotorp",
           "platform": "B1",
-          "plannedTime": "2026-08-19T22:07:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:07:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:21:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:21:00.0000000+02:00",
           "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyODkxMnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "18",
+          "lineName": "Buss 18",
+          "transportMode": "bus",
+          "direction": "Kallebäck",
+          "platform": "A3",
+          "plannedTime": "2026-08-19T22:17:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:22:00.0000000+02:00",
+          "delayMin": 5,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg2OHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "5",
+          "lineName": "Spårvagn 5",
+          "transportMode": "tram",
+          "direction": "Länsmansgården",
+          "platform": "A2",
+          "plannedTime": "2026-08-19T22:24:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:24:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw1NTgxOHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "X4",
+          "lineName": "Buss X4",
+          "transportMode": "bus",
+          "direction": "Kungälv, Påstigning fram",
+          "platform": "B3",
+          "plannedTime": "2026-08-19T22:23:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:24:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzMzkzfDd8ODB8MTkwODIwMjYiLCJJIjowfV19",
+          "line": "63",
+          "lineName": "Buss 63",
+          "transportMode": "bus",
+          "direction": "Heden, Påstigning fram",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3OHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "61",
+          "lineName": "Buss 61",
+          "transportMode": "bus",
+          "direction": "Masthugget via Järntorget, Påstigning fram",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T22:25:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg3MXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "12",
+          "lineName": "Spårvagn 12",
+          "transportMode": "tram",
+          "direction": "Mölndal",
+          "platform": "B1",
+          "plannedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:27:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "6",
+          "lineName": "Spårvagn 6",
+          "transportMode": "tram",
+          "direction": "Kortedala",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:23:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:28:00.0000000+02:00",
+          "delayMin": 5,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE5NXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "8",
+          "lineName": "Spårvagn 8",
+          "transportMode": "tram",
+          "direction": "Angered",
+          "platform": "B2",
+          "plannedTime": "2026-08-19T22:27:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:29:00.0000000+02:00",
+          "delayMin": 2,
           "cancelled": false
         }
       ]
@@ -508,242 +508,242 @@
       "gid": "9021014003640000",
       "departures": [
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzM5MXw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Saltholmen",
-          "platform": "A",
-          "plannedTime": "2026-08-19T21:51:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "delayMin": 2,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NjQwM3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Marklandsgatan",
-          "platform": "A",
-          "plannedTime": "2026-08-19T21:53:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE2NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Kålltorp",
-          "platform": "B",
-          "plannedTime": "2026-08-19T21:55:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3Nnw1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "61",
-          "lineName": "Buss 61",
-          "transportMode": "bus",
-          "direction": "Masthugget, Påstigning fram",
-          "platform": "F",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3N3w2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU4MXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "61",
           "lineName": "Buss 61",
           "transportMode": "bus",
           "direction": "Heden, Påstigning fram",
           "platform": "E",
-          "plannedTime": "2026-08-19T21:56:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:56:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:15:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:15:00.0000000+02:00",
           "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2MTg3fDB8ODB8MTkwODIwMjYiLCJJIjowfV19",
-          "line": "X2",
-          "lineName": "Buss X2",
-          "transportMode": "bus",
-          "direction": "Billdal, Påstigning fram",
-          "platform": "F",
-          "plannedTime": "2026-08-19T21:51:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "delayMin": 6,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg1NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Tynnered",
-          "platform": "D",
-          "plannedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "delayMin": 3,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE1MnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "9",
-          "lineName": "Spårvagn 9",
-          "transportMode": "tram",
-          "direction": "Kungssten",
-          "platform": "A",
-          "plannedTime": "2026-08-19T21:57:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjEzNnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Östra Sjukhuset",
-          "platform": "C",
-          "plannedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "6",
-          "lineName": "Spårvagn 6",
-          "transportMode": "tram",
-          "direction": "Kortedala via Sahlgrenska",
-          "platform": "D",
-          "plannedTime": "2026-08-19T21:54:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "delayMin": 5,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NTgzNHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NTg0MnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "X2",
           "lineName": "Buss X2",
           "transportMode": "bus",
           "direction": "Gerrebacka, Påstigning fram",
           "platform": "E",
-          "plannedTime": "2026-08-19T21:58:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:13:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 3,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ0MnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "11",
           "lineName": "Spårvagn 11",
           "transportMode": "tram",
           "direction": "Bergsjön",
           "platform": "B",
-          "plannedTime": "2026-08-19T21:59:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:02:00.0000000+02:00",
-          "delayMin": 3,
+          "plannedTime": "2026-08-19T22:14:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 2,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjAzMHw1fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjAzMHw2fDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "6",
           "lineName": "Spårvagn 6",
           "transportMode": "tram",
           "direction": "Länsmansgården",
           "platform": "C",
-          "plannedTime": "2026-08-19T22:01:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:03:00.0000000+02:00",
-          "delayMin": 2,
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1MnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NzE4NHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Brunnsparken",
+          "platform": "B",
+          "plannedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:16:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": true
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1MnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "9",
           "lineName": "Spårvagn 9",
           "transportMode": "tram",
           "direction": "Angered",
           "platform": "B",
-          "plannedTime": "2026-08-19T22:03:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:04:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:18:00.0000000+02:00",
+          "delayMin": 0,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXw2MTkwfDB8ODB8MTkwODIwMjYiLCJJIjowfV19",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE1MnwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
+          "transportMode": "tram",
+          "direction": "Kungssten",
+          "platform": "A",
+          "plannedTime": "2026-08-19T22:12:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 8,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NjQwM3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "X",
+          "lineName": "Spårvagn X",
+          "transportMode": "tram",
+          "direction": "Frihamnen via Stenpiren",
+          "platform": "C",
+          "plannedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "delayMin": 0,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2NTgyOXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "X2",
           "lineName": "Buss X2",
           "transportMode": "bus",
           "direction": "Billdal, Påstigning fram",
           "platform": "F",
-          "plannedTime": "2026-08-19T22:05:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:07:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:22:00.0000000+02:00",
           "delayMin": 2,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ0M3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "11",
-          "lineName": "Spårvagn 11",
-          "transportMode": "tram",
-          "direction": "Saltholmen",
-          "platform": "A",
-          "plannedTime": "2026-08-19T22:06:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:08:00.0000000+02:00",
-          "delayMin": 2,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg1OXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg3NnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "3",
           "lineName": "Spårvagn 3",
           "transportMode": "tram",
           "direction": "Marklandsgatan",
           "platform": "A",
-          "plannedTime": "2026-08-19T22:08:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:09:00.0000000+02:00",
-          "delayMin": 1,
+          "plannedTime": "2026-08-19T22:22:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:25:00.0000000+02:00",
+          "delayMin": 3,
           "cancelled": false
         },
         {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg1NXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "1",
-          "lineName": "Spårvagn 1",
-          "transportMode": "tram",
-          "direction": "Tynnered",
-          "platform": "D",
-          "plannedTime": "2026-08-19T22:09:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:10:00.0000000+02:00",
-          "delayMin": 1,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4NXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
-          "line": "3",
-          "lineName": "Spårvagn 3",
-          "transportMode": "tram",
-          "direction": "Kålltorp",
-          "platform": "B",
-          "plannedTime": "2026-08-19T22:10:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:10:00.0000000+02:00",
-          "delayMin": 0,
-          "cancelled": false
-        },
-        {
-          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE0M3wyfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
           "line": "6",
           "lineName": "Spårvagn 6",
           "transportMode": "tram",
           "direction": "Kortedala via Sahlgrenska",
           "platform": "D",
-          "plannedTime": "2026-08-19T22:09:00.0000000+02:00",
-          "estimatedTime": "2026-08-19T22:12:00.0000000+02:00",
+          "plannedTime": "2026-08-19T22:24:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:25:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1NnwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Saltholmen",
+          "platform": "A",
+          "plannedTime": "2026-08-19T22:20:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "delayMin": 6,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDg3OXwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "1",
+          "lineName": "Spårvagn 1",
+          "transportMode": "tram",
+          "direction": "Tynnered",
+          "platform": "D",
+          "plannedTime": "2026-08-19T22:24:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:27:00.0000000+02:00",
+          "delayMin": 3,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXw2MTk0fDB8ODB8MTkwODIwMjYiLCJJIjowfV19",
+          "line": "X2",
+          "lineName": "Buss X2",
+          "transportMode": "bus",
+          "direction": "Gerrebacka, Påstigning fram",
+          "platform": "E",
+          "plannedTime": "2026-08-19T22:27:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:28:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4MHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "1",
+          "lineName": "Spårvagn 1",
+          "transportMode": "tram",
+          "direction": "Östra Sjukhuset",
+          "platform": "C",
+          "plannedTime": "2026-08-19T22:27:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:28:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwxMjU3OHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "61",
+          "lineName": "Buss 61",
+          "transportMode": "bus",
+          "direction": "Masthugget, Påstigning fram",
+          "platform": "F",
+          "plannedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:30:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE2NXwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "3",
+          "lineName": "Spårvagn 3",
+          "transportMode": "tram",
+          "direction": "Kålltorp",
+          "platform": "B",
+          "plannedTime": "2026-08-19T22:29:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:30:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyNDQyNHwwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "9",
+          "lineName": "Spårvagn 9",
+          "transportMode": "tram",
+          "direction": "Kungssten",
+          "platform": "A",
+          "plannedTime": "2026-08-19T22:26:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:30:00.0000000+02:00",
+          "delayMin": 4,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwzNzQ1NHwxfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "11",
+          "lineName": "Spårvagn 11",
+          "transportMode": "tram",
+          "direction": "Bergsjön",
+          "platform": "B",
+          "plannedTime": "2026-08-19T22:30:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:31:00.0000000+02:00",
+          "delayMin": 1,
+          "cancelled": false
+        },
+        {
+          "detailsRef": "eyJUIjpbeyJSIjoiMXwyMjE4N3wwfDgwfDE5MDgyMDI2IiwiSSI6MH1dfQ",
+          "line": "6",
+          "lineName": "Spårvagn 6",
+          "transportMode": "tram",
+          "direction": "Länsmansgården",
+          "platform": "C",
+          "plannedTime": "2026-08-19T22:30:00.0000000+02:00",
+          "estimatedTime": "2026-08-19T22:33:00.0000000+02:00",
           "delayMin": 3,
           "cancelled": false
         }
@@ -1210,6 +1210,18 @@
       ]
     },
     {
+      "id": "RT3026296",
+      "title": "Älgarås, läge A och Nygatan, läge A/B är indragna.",
+      "description": "Närmaste hållplats är tillfällig hållplats på Törebodavägen i anslutning till infotavlan vid infarten till Älgarås. Orsaken är vägarbete. Gäller från 17 augusti klockan 06:00 till 28 augusti klockan 16:00.",
+      "severity": "slight",
+      "creationTime": "2026-08-10T15:07:40.406+02:00",
+      "startTime": "2026-08-17T04:00:00+02:00",
+      "endTime": "2026-08-28T16:00:00+02:00",
+      "affectedLines": [
+        "503"
+      ]
+    },
+    {
       "id": "RT3026225",
       "title": "Linje 52, Högskolan och Grevön är indragna.",
       "description": "Närmaste hållplatser är Polhemsgatan och Stensmedjan. Orsaken är vägarbete.",
@@ -1234,31 +1246,6 @@
       ]
     },
     {
-      "id": "RT3026296",
-      "title": "Älgarås, läge A och Nygatan, läge A/B är indragna.",
-      "description": "Närmaste hållplats är tillfällig hållplats på Törebodavägen i anslutning till infotavlan vid infarten till Älgarås. Orsaken är vägarbete. Gäller från 17 augusti klockan 06:00 till 28 augusti klockan 16:00.",
-      "severity": "slight",
-      "creationTime": "2026-08-10T15:07:40.406+02:00",
-      "startTime": "2026-08-17T04:00:00+02:00",
-      "endTime": "2026-08-28T16:00:00+02:00",
-      "affectedLines": [
-        "503"
-      ]
-    },
-    {
-      "id": "RT3027114",
-      "title": "Chalmers, läge D är indragen för alla linjer.",
-      "description": "Sök din resa i appen To Go. Orsaken är spårarbete vid Chalmers. Gäller 16-20 augusti, nattetid mellan klockan 20:00-06:00.",
-      "severity": "slight",
-      "creationTime": "2026-08-12T08:23:23.425+02:00",
-      "startTime": "2026-08-19T18:00:00+02:00",
-      "endTime": "2026-08-20T06:00:00+02:00",
-      "affectedLines": [
-        "64",
-        "753"
-      ]
-    },
-    {
       "id": "RT3021092",
       "title": "Spårvagnstrafiken är indragen mellan Drottningtorget/Svingeln och Angered/Bergsjön.",
       "description": "Ersättningsbuss 6E kör mellan Svingeln och Gamlestads Torg samt spårvagn X mellan Angered Centrum-Gamlestads Torg-Komettorget. Orsaken är spårarbete vid Gamlestads Torg. Gäller 23 till 28 augusti, nattetid mellan klockan 22:00 och 04:00.",
@@ -1277,15 +1264,31 @@
       ]
     },
     {
-      "id": "RT3027152",
-      "title": "Linje 600 mot Skövde avgår från Axvalla travbana läge D.",
-      "description": "Orsaken är vägarbete. Gäller från 23 augusti klockan 00:01 till 6 november klockan 23:59.",
+      "id": "RT3027114",
+      "title": "Chalmers, läge D är indragen för alla linjer.",
+      "description": "Sök din resa i appen To Go. Orsaken är spårarbete vid Chalmers. Gäller 16-20 augusti, nattetid mellan klockan 20:00-06:00.",
       "severity": "slight",
-      "creationTime": "2026-08-12T12:55:31.778+02:00",
-      "startTime": "2026-08-22T18:00:00+02:00",
-      "endTime": "2026-11-06T23:59:00+01:00",
+      "creationTime": "2026-08-12T08:23:23.425+02:00",
+      "startTime": "2026-08-19T18:00:00+02:00",
+      "endTime": "2026-08-20T06:00:00+02:00",
       "affectedLines": [
-        "600"
+        "64",
+        "753"
+      ]
+    },
+    {
+      "id": "RT3027166",
+      "title": "Linje 306, 307, 309 och 355 avgår från Oasen.",
+      "description": "Orsaken är fasadarbete på Kungälv resecentrum. Gäller från 24 augusti klockan 04:00 till 25 september klockan 04:00.",
+      "severity": "slight",
+      "creationTime": "2026-08-12T10:57:18.017+02:00",
+      "startTime": "2026-08-24T04:00:00+02:00",
+      "endTime": "2026-09-25T04:00:00+02:00",
+      "affectedLines": [
+        "306",
+        "307",
+        "309",
+        "355"
       ]
     },
     {
@@ -1302,18 +1305,15 @@
       ]
     },
     {
-      "id": "RT3027166",
-      "title": "Linje 306, 307, 309 och 355 avgår från Oasen.",
-      "description": "Orsaken är fasadarbete på Kungälv resecentrum. Gäller från 24 augusti klockan 04:00 till 25 september klockan 04:00.",
+      "id": "RT3027152",
+      "title": "Linje 600 mot Skövde avgår från Axvalla travbana läge D.",
+      "description": "Orsaken är vägarbete. Gäller från 23 augusti klockan 00:01 till 6 november klockan 23:59.",
       "severity": "slight",
-      "creationTime": "2026-08-12T10:57:18.017+02:00",
-      "startTime": "2026-08-24T04:00:00+02:00",
-      "endTime": "2026-09-25T04:00:00+02:00",
+      "creationTime": "2026-08-12T12:55:31.778+02:00",
+      "startTime": "2026-08-22T18:00:00+02:00",
+      "endTime": "2026-11-06T23:59:00+01:00",
       "affectedLines": [
-        "306",
-        "307",
-        "309",
-        "355"
+        "600"
       ]
     },
     {
@@ -1351,6 +1351,19 @@
       "affectedLines": []
     },
     {
+      "id": "RT3028239",
+      "title": "Linje 157 och 159, Tummarpskolan och Dalsjöfors Storgatan är indragna i båda riktningar.",
+      "description": "Närmaste hållplats är Kerstins gärde eller tillfällig hållplats på Storgatan. Orsaken är vägarbete. Gäller från 17 augusti klockan 04:00 till 13 december klockan 04:00.",
+      "severity": "slight",
+      "creationTime": "2026-08-14T09:27:43.604+02:00",
+      "startTime": "2026-08-17T02:00:00+02:00",
+      "endTime": "2026-12-13T04:00:00+01:00",
+      "affectedLines": [
+        "157",
+        "159"
+      ]
+    },
+    {
       "id": "RT3028423",
       "title": "Linje 75, 77, 178 och X77, Mejramgatan är indragen.",
       "description": "Närmaste hållplats är Körvelgatan. Orsaken är vägarbete. Gäller 19-21 augusti, nattetid klockan 20:00-05:00.",
@@ -1363,19 +1376,6 @@
         "77",
         "178",
         "X77"
-      ]
-    },
-    {
-      "id": "RT3028239",
-      "title": "Linje 157 och 159, Tummarpskolan och Dalsjöfors Storgatan är indragna i båda riktningar.",
-      "description": "Närmaste hållplats är Kerstins gärde eller tillfällig hållplats på Storgatan. Orsaken är vägarbete. Gäller från 17 augusti klockan 04:00 till 13 december klockan 04:00.",
-      "severity": "slight",
-      "creationTime": "2026-08-14T09:27:43.604+02:00",
-      "startTime": "2026-08-17T02:00:00+02:00",
-      "endTime": "2026-12-13T04:00:00+01:00",
-      "affectedLines": [
-        "157",
-        "159"
       ]
     },
     {
@@ -1418,6 +1418,18 @@
       ]
     },
     {
+      "id": "RT3015775",
+      "title": "Linje 99, Regnbågsgatan läge B är flyttad cirka 100 meter före ordinarie hållplatsläge.",
+      "description": "Orsaken är vägarbete. Gäller från 17 augusti klockan 04:00 till 11 september klockan 16:00.",
+      "severity": "slight",
+      "creationTime": "2026-08-17T10:34:28.1+02:00",
+      "startTime": "2026-08-17T04:00:00+02:00",
+      "endTime": "2026-09-11T16:00:00+02:00",
+      "affectedLines": [
+        "99"
+      ]
+    },
+    {
       "id": "RT3028056",
       "title": "Linje 711 och 714 är indragna mellan Elgärde och Frändefors posten.",
       "description": "Orsaken är vägarbete. Sök din resa i appen To Go. Detta gäller från 17 augusti klockan 04:00 till 11 september klockan 23:30.",
@@ -1428,18 +1440,6 @@
       "affectedLines": [
         "711",
         "714"
-      ]
-    },
-    {
-      "id": "RT3015775",
-      "title": "Linje 99, Regnbågsgatan läge B är flyttad cirka 100 meter före ordinarie hållplatsläge.",
-      "description": "Orsaken är vägarbete. Gäller från 17 augusti klockan 04:00 till 11 september klockan 16:00.",
-      "severity": "slight",
-      "creationTime": "2026-08-17T10:34:28.1+02:00",
-      "startTime": "2026-08-17T04:00:00+02:00",
-      "endTime": "2026-09-11T16:00:00+02:00",
-      "affectedLines": [
-        "99"
       ]
     },
     {
@@ -1560,14 +1560,19 @@
       "affectedLines": []
     },
     {
-      "id": "RT3031172",
-      "title": "Ersättningsbuss linje 38 klockan 12:35 är försenad från Dingle Station mot Strömstad.",
-      "description": "Orsaken är tekniskt fel.",
+      "id": "RT2614819",
+      "title": "Vissa tåg förstärks eller ersätts med buss på hela eller delar av sträckan.",
+      "description": "Räkna med längre restid. Gäller under 2026.",
       "severity": "slight",
-      "creationTime": "2026-08-19T11:51:10.037+02:00",
-      "startTime": "2026-08-20T09:00:00+02:00",
-      "endTime": "2026-08-20T14:00:00+02:00",
-      "affectedLines": []
+      "creationTime": "2026-08-19T11:00:44.127+02:00",
+      "startTime": "2026-01-01T04:00:00+01:00",
+      "endTime": "2026-12-31T23:59:00+01:00",
+      "affectedLines": [
+        "TÅG",
+        "TÅG",
+        "TÅG",
+        "TÅG"
+      ]
     },
     {
       "id": "RT3031174",
@@ -1577,6 +1582,16 @@
       "creationTime": "2026-08-19T11:51:48.478+02:00",
       "startTime": "2026-08-21T09:00:00+02:00",
       "endTime": "2026-08-21T14:00:00+02:00",
+      "affectedLines": []
+    },
+    {
+      "id": "RT3031172",
+      "title": "Ersättningsbuss linje 38 klockan 12:35 är försenad från Dingle Station mot Strömstad.",
+      "description": "Orsaken är tekniskt fel.",
+      "severity": "slight",
+      "creationTime": "2026-08-19T11:51:10.037+02:00",
+      "startTime": "2026-08-20T09:00:00+02:00",
+      "endTime": "2026-08-20T14:00:00+02:00",
       "affectedLines": []
     },
     {
@@ -1601,21 +1616,6 @@
       "endTime": "2026-08-25T05:30:00+02:00",
       "affectedLines": [
         "630"
-      ]
-    },
-    {
-      "id": "RT2614819",
-      "title": "Vissa tåg förstärks eller ersätts med buss på hela eller delar av sträckan.",
-      "description": "Räkna med längre restid. Gäller under 2026.",
-      "severity": "slight",
-      "creationTime": "2026-08-19T11:00:44.127+02:00",
-      "startTime": "2026-01-01T04:00:00+01:00",
-      "endTime": "2026-12-31T23:59:00+01:00",
-      "affectedLines": [
-        "TÅG",
-        "TÅG",
-        "TÅG",
-        "TÅG"
       ]
     },
     {
@@ -1655,18 +1655,6 @@
       ]
     },
     {
-      "id": "RT3031417",
-      "title": "Linje 78, Burmabacken är indragen mot Eriksbo.",
-      "description": "Orsaken är vägarbete. Sök din resa i appen To Go.",
-      "severity": "normal",
-      "creationTime": "2026-08-19T15:57:34.135+02:00",
-      "startTime": "2026-08-19T15:57:00+02:00",
-      "endTime": "2026-08-19T23:59:00+02:00",
-      "affectedLines": [
-        "78"
-      ]
-    },
-    {
       "id": "RT3031370",
       "title": "Linje 109, Stureskolan är indragen.",
       "description": "Orsaken är vägarbete. Sök din resa i appen To Go.",
@@ -1676,6 +1664,18 @@
       "endTime": "2026-08-23T23:59:00+02:00",
       "affectedLines": [
         "109"
+      ]
+    },
+    {
+      "id": "RT3031417",
+      "title": "Linje 78, Burmabacken är indragen mot Eriksbo.",
+      "description": "Orsaken är vägarbete. Sök din resa i appen To Go.",
+      "severity": "normal",
+      "creationTime": "2026-08-19T15:57:34.135+02:00",
+      "startTime": "2026-08-19T15:57:00+02:00",
+      "endTime": "2026-08-19T23:59:00+02:00",
+      "affectedLines": [
+        "78"
       ]
     },
     {
@@ -1691,46 +1691,6 @@
       ]
     },
     {
-      "id": "RT3031520",
-      "title": "Västtågen 3837 klockan 17:10 är försenat från Herrljunga station mot Varberg.",
-      "description": "Orsaken är tågmöte.",
-      "severity": "slight",
-      "creationTime": "2026-08-19T17:04:16.737+02:00",
-      "startTime": "2026-08-19T17:04:00+02:00",
-      "endTime": "2026-08-20T03:35:00+02:00",
-      "affectedLines": []
-    },
-    {
-      "id": "RT3031717",
-      "title": "Linje 106 klockan 21:05 är försenad från Lidköpings resecentrum mot Götene.",
-      "description": "Orsaken är personalbyte.",
-      "severity": "slight",
-      "creationTime": "2026-08-19T20:56:36.471+02:00",
-      "startTime": "2026-08-19T20:56:00+02:00",
-      "endTime": "2026-08-19T21:55:00+02:00",
-      "affectedLines": []
-    },
-    {
-      "id": "RT3031729",
-      "title": "Västtågen 3843 klockan 21:07 är försenat från Herrljung station mot Borås.",
-      "description": "Orsaken är banarbete.",
-      "severity": "slight",
-      "creationTime": "2026-08-19T21:24:31.236+02:00",
-      "startTime": "2026-08-19T21:24:00+02:00",
-      "endTime": "2026-08-19T22:10:00+02:00",
-      "affectedLines": []
-    },
-    {
-      "id": "RT3031731",
-      "title": "Västtågen 3584 klockan 21:29 är försenat från Aspen station mot Alingsås.",
-      "description": "Orsaken är banarbete.",
-      "severity": "slight",
-      "creationTime": "2026-08-19T21:40:22.912+02:00",
-      "startTime": "2026-08-19T21:40:00+02:00",
-      "endTime": "2026-08-19T22:10:00+02:00",
-      "affectedLines": []
-    },
-    {
       "id": "RT3021434",
       "title": "Linje 611 mot Mölnlycketerminalen avgår från Landvetter resecentrum, läge J.",
       "description": "",
@@ -1741,14 +1701,24 @@
       "affectedLines": [
         "611"
       ]
+    },
+    {
+      "id": "RT3031766",
+      "title": "Linje 560 klockan 21:45 är försenad från Anten mot Alingsåsterminalen.",
+      "description": "Orsaken är olycka.",
+      "severity": "slight",
+      "creationTime": "2026-08-19T22:07:46.978+02:00",
+      "startTime": "2026-08-19T22:07:00+02:00",
+      "endTime": "2026-08-19T22:45:00+02:00",
+      "affectedLines": []
     }
   ],
   "situationsStatus": "ok",
   "stats": {
     "departuresTotal": 60,
-    "onTime": 48,
-    "late": 12,
-    "cancelled": 0,
-    "onTimePct": 80
+    "onTime": 37,
+    "late": 21,
+    "cancelled": 2,
+    "onTimePct": 61.7
   }
 }
