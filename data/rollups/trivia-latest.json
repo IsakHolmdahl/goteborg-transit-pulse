@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-28T07:55:38.565Z",
+  "generatedAt": "2026-10-29T06:33:53.884Z",
   "mostPunctualLine": {
-    "line": "10",
-    "samples": 52,
-    "onTime": 51,
-    "totalDelayMin": 27,
-    "onTimePct": 98.1,
-    "avgDelayMin": 0.52
+    "line": "1",
+    "samples": 150,
+    "onTime": 132,
+    "totalDelayMin": 158,
+    "onTimePct": 88,
+    "avgDelayMin": 1.05
   },
   "longestSingleDelay": {
     "delayMin": 75,
@@ -17,7 +17,7 @@
   },
   "busiestStop": {
     "name": "Brunnsparken, Göteborg",
-    "count": 20
+    "count": 12
   },
   "cancelledToday": 0
 }
